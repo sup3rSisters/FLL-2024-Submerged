@@ -27,11 +27,11 @@ def fastSpeed():
 # The main program starts here.
 mediumSpeed()
 robot.straight(-420)
-robot.turn(105)
-robot.curve(-4000, -9)
-robot.turn(-115)
+robot.turn(105) # flick the crab traps
+robot.curve(-4000, -9) # pick up the krill and coral
+robot.turn(-115) # turn to face the correct side to go across
 wait(500)
-robot.straight(-950)
-robot.curve(-450, 35)
-robot.turn(-25)
-robot.straight(-550)
+robot.straight(-950) # go across
+robot.curve(-450, 35) # pick up more hings
+robot.turn(-25) # turn to pick up the last thing
+robot.straight(-550) # go home
